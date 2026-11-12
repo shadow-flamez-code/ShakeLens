@@ -80,10 +80,11 @@ writes the result to `%TEMP%\shakelens_selftest.txt`.
 
 ## Install
 
-Grab **ShakeLens-Setup-x64.exe** from the releases and run it. It installs to
-`%LOCALAPPDATA%\Programs\ShakeLens`, adds a start menu and desktop shortcut and
-registers an uninstaller. No .NET runtime is needed, the app ships with
-everything it requires.
+Grab **ShakeLens-Setup-x64.exe** from the
+[releases](https://github.com/shadow-flamez-code/ShakeLens/releases) and run it.
+It installs to `%LOCALAPPDATA%\Programs\ShakeLens`, adds a start menu and
+desktop shortcut and registers an uninstaller. No .NET runtime is needed, the
+app ships with everything it requires.
 
 A portable build is available as **ShakeLens-portable-x64.zip** - unpack it
 anywhere and run `ShakeLens.exe`.
