@@ -1,0 +1,15 @@
+# build output
+bin/
+obj/
+build/
+publish/
+dist/
+
+# the packed payload and the generated icon
+build/
+publish/
+
+# user specific
+*.user
+*.suo
+.vs/

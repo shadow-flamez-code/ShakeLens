@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ShakeLens</AssemblyName>
+    <RootNamespace>ShakeLens</RootNamespace>
+    <ApplicationIcon>Assets\ShakeLens.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\ShakeLens.ico" />
+    <Resource Include="Assets\Cursor\frames.json" />
+    <Resource Include="Assets\Cursor\frame_*.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- the setup program and the build helpers are not part of the app -->
+    <Compile Remove="tools\**\*.cs" />
+    <None Include="tools\**" />
+  </ItemGroup>
+
+</Project>
